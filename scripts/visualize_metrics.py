@@ -2,11 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-# Directory paths
 processed_data_dir = "../data/processed"
 output_dir = "../dashboards"
 
-# Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
 
 def plot_total_sales_per_merchant():
@@ -45,7 +43,6 @@ def plot_monthly_revenue_trends():
     file_path = f"{processed_data_dir}/monthly_revenue_trends.csv"
     df = pd.read_csv(file_path)
 
-    # Convert month column to datetime for proper sorting
     df['month'] = pd.to_datetime(df['month'])
 
     plt.figure(figsize=(12, 6))
