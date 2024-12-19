@@ -32,7 +32,7 @@ This project is a simplified simulation of an **E-Commerce Metrics Platform**, i
   - `Faker`: For generating mock data.
 - **Tools**:
   - Docker: For containerized database setup.
-  - GitHub: For version control and project collaboration.
+  - GitHub: For version control.
 
 ---
 
@@ -42,6 +42,5 @@ This project is a simplified simulation of an **E-Commerce Metrics Platform**, i
 ecommerce-metrics/
 ├── data/           # Contains generated mock datasets (CSV files)
 ├── scripts/        # Python scripts for data ingestion and processing
-├── db/             # SQL scripts for schema creation and queries
 ├── dashboard/      # Placeholder for future visualization components
 └── README.md       # Documentation for the project
